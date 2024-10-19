@@ -50,7 +50,7 @@ iface = gr.Interface(
         gr.Image(type="pil", label="Input Image"),
     ],
     outputs=gr.Image(type="pil", label="Image with Background Removed"),
-    title="Background Removal App",
+    title="Alchemist Background Removal App",
     description="Upload an image to remove its background.",
 )
 
